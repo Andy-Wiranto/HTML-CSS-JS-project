@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(22, 22, 22); 
+}
+
+.Image-Gallery img{
+    width: 400px;
+    height: 300px;
+    border: 2px solid #ffae0036;
+    border-radius: 13px;
+    box-shadow: 4px 7px 0px #00000042;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+}
+
+.Image-Gallery h2{
+    text-align: center;
+    color: #fff;
+    padding: 1rem 7%;
+    margin-top: 5rem;
+    background-color: rgb(22, 22, 22);
+    font-size: 2rem;
+}
+
+.Image-Gallery h2 span{
+    color: orange;
+}
+
+.Image-Gallery .Image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.Image-Gallery .Image img:hover{
+    filter: grayscale();
+    transform: scale(1.03);
+
+}

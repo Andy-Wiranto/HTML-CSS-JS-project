@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../CSS/Register.css">
+</head>
+<body>
+    <head>
+        <nav class="navbar">
+            <div class="pic">
+                <p>HI-<span>Toyz</span></p>
+            </div>
+            <div class="Navbar-nav">
+                <a href="HomePage.html">Home</a>
+                <a href="Products.html">Products</a>
+                <a href="Gallery.html">Gallery</a>
+                <a href="Event.html">Event</a>
+                <!-- <a href="#" class="register">Register</a> -->
+            </div>
+            <div class="Navbar-menuLogo">
+                <a href="Register.html" id="Profile-icon"><i data-feather="user"></i></a>
+                <a href="#" id="Menu"><i data-feather="menu"></i></a>
+            </div>
+        </nav>
+    </head>
+    <a href="#" class="back"><i data-feather="arrow-left"></i></a>
+    <div class="container">
+        
+        <form action="" id="form" method="POST">
+            <h2>Register</h2>
+            <div class="input-div">
+                <label for="name" class="label">Name</label>
+                <input type="text" name="name" id="name" placeholder="Example (xxxxxxxx)">
+            </div>
+            <div class="input-div">
+                <label for="email" class="label">Email</label>
+                <input type="text" name="email" id="email" placeholder="Example (xxxxxx@gmail.com)">
+            </div>
+            <div class="input-div">
+                <label for="password" class="label">Password</label>
+                <input type="password" name="password" id="password" placeholder="Password">
+            </div>
+            <div class="input-div">
+                <label for="Date of Birth" class="label">Date of Birth</label>
+                <input type="date" name="date" id="date">
+            </div>
+            <div class="input-div" class="label">
+                <label for="aggrement" class="label">Aggrement</label>
+                <div class="radio">
+                    <input type="checkbox" name="agreement" id="aggrement">
+                    <label for="aggrement">I agree for the terms and conditions</label>
+                </div>
+            </div>
+            <button type="submit">Register</button>
+
+            <div id="error"></div>
+        </form>
+    </div>
+    <script src="../JavaScript/Register.js"></script>
+</body>
+</html>
